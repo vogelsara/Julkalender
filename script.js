@@ -28,6 +28,6 @@ function checkDivDay(element) {
         element.style.backgroundImage = "url('./img/surprise/"+ selectedDate.getDate() +".gif')";
         element.style.backgroundSize = "cover"
     } else {
-        alert("Ajaj, nu va du för snabb!")
+        alert("Don't rush!")
     }
 }

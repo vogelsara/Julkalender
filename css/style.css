@@ -1,3 +1,4 @@
+
 body {
     background-image: url("../img/background.jpg");
     background-attachment: fixed;
@@ -6,7 +7,9 @@ body {
 }
 
 h1 {
-    color: darkcyan;
+    font-family: 'Mountains of Christmas';
+    font-weight: 700;
+    color: darkslategrey;
     text-align: center;
     font-size: 6em;
     margin-bottom: 20px;
@@ -32,11 +35,12 @@ h1 {
 }
 
 .dayNumber {
+    font-family: 'Mountains of Christmas';
     position: absolute;
     top: 1em;
     left: 1em;
     margin: 0;
     font-size: 1.5em;
     font-weight: 700;
-    color:darkcyan;
+    color: darkslategrey;
 }
