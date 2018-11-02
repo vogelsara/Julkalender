@@ -30,7 +30,7 @@ h1 {
     margin: 1em;
     background-image: url("./img/surprise.gif");
     background-size: cover;
-    border-radius: 8px;
+    border-radius: 20%;
     position: relative;
 }
 
