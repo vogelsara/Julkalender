@@ -4,7 +4,7 @@ function initCalendar() {
 
     for(var i = 1; i <= 24; i++) {
         var date = new Date()
-        date.setMonth(11)
+        date.setMonth(10)
         date.setDate(i)
 
         var divDay = document.createElement("div")
@@ -15,7 +15,7 @@ function initCalendar() {
         divDay.className = "calendarDay"
         container.appendChild(divDay)
 
-        divDay.style.backgrounds
+        divDay.style.backgroundColor = '#bccce5';
     }
 }   
 
